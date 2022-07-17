@@ -17,6 +17,6 @@ while True: #mengulang perintah ranpa kondisi apa pun sampai pernyataan break di
 		time.sleep(2.0) #delay waktu selama 2 detik dalam menampilkan hasil dari sesnor.
 		continue #sesnsor akan terus membaca dan menampilkan hasil.
 	except Exception as error: #mendeteksi kesalahan selama dieksekusi.
-		sensor.exit() #
+		sensor.exit() #fungsi untuk keluar dari perintah.
 		raise error #digunakan untuk membagkitkan ekspesi ketika kondisi error.
 	time.sleep(2.0) #delay  waktu selama 2 detik dalam menampilkan hasil dari sesnor.
